@@ -69,7 +69,7 @@ spawn(function()
 	placemarker.CanCollide = false
 	placemarker.Size = Vector3.new(0.1, 0.1, 0.1)
 	placemarker.Transparency = 10
-	makemarker(placemarker, placemarker, Color3.fromRGB((177, 0, 0), 0.55, 0)
+	makemarker(placemarker, placemarker, Color3.fromRGB(177, 0, 0), 0.55, 0)
 end)    
 
 mouse.KeyDown:Connect(function(k)
